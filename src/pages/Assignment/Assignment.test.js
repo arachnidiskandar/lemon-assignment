@@ -164,7 +164,6 @@ describe('Assignment', () => {
     await waitForDomChange(grid)
     await waitForDomChange(grid)
     fireEvent.click(getByTestId('card_51'))
-
     expect(window.location.assign).toHaveBeenCalledWith(
       'https://github.com/login52',
     )
