@@ -64,14 +64,14 @@ const LoadingBar = styled.div(
   `,
 )
 
-const formatStats = ({ repos, gists }) => [
+const formatStats = ({ repos, public_gists }) => [
   {
     icon: <RepositoryIcon />,
     value: repos,
   },
   {
     icon: <GistIcon />,
-    value: gists,
+    value: public_gists,
   },
 ]
 
