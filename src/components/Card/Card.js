@@ -85,13 +85,13 @@ const Footer = styled(PartialContainer)(
         vertical-align: middle;
         height: 16px;
       }
-
       color: ${colors.text.caption};
     }
 
     > *:not(:last-child) {
       margin-right: ${spacing(2)};
     }
+    justify-content: flex-end;
   `,
 )
 
